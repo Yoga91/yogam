@@ -28,20 +28,22 @@ print("\nKey anda :", pemilih)
 if pilihan in ['v_1', 'v_2', 'v_3', 'v_4', 'v_5']:
     print("\nAKSES ANDA DITERIMA")
 
+
+
+    pemilu(paslon)
+    pilihanmu = (input("\nSilahkan Isi Pilhan Anda (1/2/3) :"))
+        
+    if pilihanmu == "1":
+        print("\nSELAMAT !\n", "\nANDA TELAH MEMILIH ANIES BASWEDAN\n")
+        print("TERIMA KASIH ATAS PARTISIPASINYA DALAM PEMILU 2024")
+    
+    elif pilihanmu == "2":
+        print("\nSELAMAT !\n", "\nANDA TELAH MEMILIH PRABOWO SUBIANTO\n")
+        print("TERIMA KASIH ATAS PARTISIPASINYA DALAM PEMILU 2024")
+    
+    elif pilihanmu == "3":
+        print("\nSELAMAT !\n", "\nANDA TELAH MEMILIH GANJAR PRANOWO\n")
+        print("TERIMA KASIH ATAS PARTISIPASINYA DALAM PEMILU 2024")
+
 else:
     print("\nAKSES ANDA DITOLAK")
-
-pemilu(paslon)
-pilihanmu = (input("\nSilahkan Isi Pilhan Anda (1/2/3) :"))
-    
-if pilihanmu == "1":
-    print("\nSELAMAT !\n", "\nANDA TELAH MEMILIH ANIES BASWEDAN\n")
-    print("TERIMA KASIH ATAS PARTISIPASINYA DALAM PEMILU 2024")
-
-elif pilihanmu == "2":
-    print("\nSELAMAT !\n", "\nANDA TELAH MEMILIH PRABOWO SUBIANTO\n")
-    print("TERIMA KASIH ATAS PARTISIPASINYA DALAM PEMILU 2024")
-
-elif pilihanmu == "3":
-    print("\nSELAMAT !\n", "\nANDA TELAH MEMILIH GANJAR PRANOWO\n")
-    print("TERIMA KASIH ATAS PARTISIPASINYA DALAM PEMILU 2024")
